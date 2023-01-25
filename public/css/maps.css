@@ -1,0 +1,41 @@
+/*maps*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#id_cap_mun {
+    z-index: 1;
+}
+
+#id_cap_utc {
+    z-index: 3;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 1;
+}
+
+.result {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+}
+
+.modal-backdrop.show {
+    z-index: 1;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* Para versiones anteriores de IE */
+}

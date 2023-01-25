@@ -1,0 +1,52 @@
+.contenedor {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.div_map {
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+
+ul li i {
+    color: #fff;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+
+@media print{
+    #search-map{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+}
+
+
+/*chart*/
+section{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
